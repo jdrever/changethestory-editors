@@ -1179,6 +1179,12 @@
     memoize-one "^3.1.1"
     oneline "^1.0.3"
 
+"@sanity/language-filter@^1.149.0":
+  version "1.149.0"
+  resolved "https://registry.npmjs.org/@sanity/language-filter/-/language-filter-1.149.0.tgz#4e8b1546f488e0cd8d3ff3cb126e98105191fbf0"
+  dependencies:
+    rxjs "^6.5.3"
+
 "@sanity/mutator@1.149.16":
   version "1.149.16"
   resolved "https://registry.npmjs.org/@sanity/mutator/-/mutator-1.149.16.tgz#8c8016b54b7b432def41243a03f8e30de6c694e9"
