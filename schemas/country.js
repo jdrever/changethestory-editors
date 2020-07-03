@@ -32,6 +32,15 @@ export default {
 
             // The type of this field
             type: "image",
+        },
+        {            // The display name for this field
+            title: "Language",
+
+            // The identifier for this field used in the api's
+            name: "language",
+
+            // The type of this field
+            type: "string",
         }
     ]
 }
