@@ -10,7 +10,7 @@ export default {
             // This document has only one field
             {
               // The display name for this field
-              name: "MainContent",
+              name: "mainContent",
               title: "Main Content",
               type: "localeRichText"
             }]
