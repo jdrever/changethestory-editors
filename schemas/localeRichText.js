@@ -2,7 +2,8 @@ const supportedLanguages= [
     { id: 'en', title: 'English', isDefault: true },
     { id: 'it', title: 'Italian' },
     { id: 'hu', title: 'Hungarian' },
-    { id: 'tr', title: 'Turkish' }
+    { id: 'tr', title: 'Turkish' },
+    { id: 'de', title: 'Austrian' }
 
 ]
 
