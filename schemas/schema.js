@@ -9,8 +9,8 @@ import about from './about'
 import country from './country'
 import homepage from './homepage'
 import story from './story'
-
-
+import learningresources from './learningresources'
+import learningresource from './learningresourcesUK'
 
 
 // story elements
@@ -37,6 +37,8 @@ export default createSchema({
     homepage,
     about,
     story,
+    learningresources,
+    learningresource,
 
     //story elements
     youtube,
