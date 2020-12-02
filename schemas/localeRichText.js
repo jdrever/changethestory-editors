@@ -22,7 +22,27 @@ export default {
             title: lang.title,
             name: lang.id,
             type: 'array',
-            of: [{ type: 'block' }],
+            of: [{ type: 'block',      marks: {
+                annotations: [
+                  {
+                    name: 'internalLink',
+                    type: 'object',
+                    title: 'Internal link',
+                    fields: [
+                      {
+                        name: 'reference',
+                        type: 'reference',
+                        title: 'Reference',
+                        to: [
+                          { type: 'projectdocument' },
+                          // other types you may want to link to
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+         }],
             fieldset: lang.isDefault ? null : 'translations'
         }
     ))

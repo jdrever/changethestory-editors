@@ -1,4 +1,11 @@
-import HtmlPreview from './htmlPreview'
+import React from 'react'
+
+
+const Preview = ({value}) => {
+  const { media } = value;
+  return (<div dangerouslySetInnerHTML={{__html: media }}></div>)
+}
+
 
 export default {
     name: 'padlet',
@@ -18,9 +25,9 @@ export default {
     ],
     preview: {
       select: {
-        subtitle: 'embedCode'
-      },
-      component: HtmlPreview
-    }
-  
+        media: "embedCode"
+      }
+      ,
+      component: Preview
+    }  
   }

@@ -34,6 +34,17 @@ export default {
         ,
         {
             // The display name for this field
+            title: "Main Image",
+
+            // The identifier for this field used in the api's
+            name: "mainImage",
+
+            // The type of this field
+            type: "image",
+        }
+        ,
+        {
+            // The display name for this field
             title: "Content",
 
             // The identifier for this field used in the api's
