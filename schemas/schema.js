@@ -40,13 +40,14 @@ export default createSchema({
     country,
     homepage,
     about,
+    contactpage,
     learningresources,
-    learningresource,
     assessementpage,
     teachersupportpage,
-    contactpage,
     story,
     projectdocument,
+    learningresource,
+
 
     //story elements
     youtube,
