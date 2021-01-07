@@ -1,6 +1,6 @@
 export default {
 
-    title: "Country",
+    title: "Country Details",
 
     // The identifier for this document type used in the api's
     name: "country",

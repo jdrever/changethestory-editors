@@ -11,5 +11,24 @@ export default {
             name: "mainContent",
             type: "localeRichText"
         }
-    ]
+        ,
+        {
+            // The display name for this field
+            title: "Tagline",
+
+            // The identifier for this field used in the api's
+            name: "tagline",
+
+            // The type of this field
+            type: "localeString",
+        }
+
+    ],
+    preview: 
+    {
+        select: 
+        {
+          title: 'tagline.en'
+        }
+    }    
 }

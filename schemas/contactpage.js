@@ -1,14 +1,13 @@
 export default {
   // The display name for this field
-  title: "Learning Resource Page",
+  title: "Contact Page",
 
   // The identifier for this field used in the api's
-  name: "learningresources",
+  name: "contact",
   type: "document",
 
   fields: [
     {
-
       // The display name for this field
       name: "title",
       title: "Title",
@@ -20,11 +19,11 @@ export default {
       title: "Main Content",
       type: "localeRichText"
     }],
-    preview: 
+  preview:
+  {
+    select:
     {
-        select: 
-        {
-          title: 'title.en'
-        }
+      title: 'title.en'
     }
+  }
 }
