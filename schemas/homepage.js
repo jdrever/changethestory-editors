@@ -4,7 +4,14 @@ export default {
     type: "document",
 
     fields: [
-        // This document has only one field
+
+
+        {
+            // The display name for this field
+            name: "title",
+            title: "Title",
+            type: "localeString"
+        },
         {
             // The display name for this field
             title: "Main Content",
@@ -24,11 +31,11 @@ export default {
         }
 
     ],
-    preview: 
+    preview:
     {
-        select: 
+        select:
         {
-          title: 'tagline.en'
+            title: 'title.en'
         }
-    }    
+    }
 }
