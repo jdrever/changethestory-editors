@@ -1,9 +1,9 @@
 export default {
   // The display name for this field
-  title: "Assessement Page",
+  title: "Assessment Page",
 
   // The identifier for this field used in the api's
-  name: "assessementpage",
+  name: "assessmentpage",
   type: "document",
 
   fields: [

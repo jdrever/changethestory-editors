@@ -11,7 +11,7 @@ import homepage from './homepage'
 import newspage from './newspage'
 import backgroundpage from './backgroundpage'
 import learningresources from './learningresources'
-import assessementpage from './assessementpage'
+import assessmentpage from './assessmentpage'
 import projectdocument from './projectdocument'
 import teachersupportpage from './teachersupportpage'
 import contactpage from './contactpage'
@@ -45,7 +45,7 @@ export default createSchema({
     contactpage,
     newspage,
     learningresources,
-    assessementpage,
+    assessmentpage,
     teachersupportpage,
     backgroundpage,
     story,
