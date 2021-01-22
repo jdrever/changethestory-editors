@@ -8,12 +8,14 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import about from './about'
 import country from './country'
 import homepage from './homepage'
-import story from './story'
+import newspage from './newspage'
+import backgroundpage from './backgroundpage'
 import learningresources from './learningresources'
 import assessementpage from './assessementpage'
 import projectdocument from './projectdocument'
 import teachersupportpage from './teachersupportpage'
 import contactpage from './contactpage'
+import story from './story'
 import learningresource from './learningresourcesUK'
 
 
@@ -41,13 +43,12 @@ export default createSchema({
     homepage,
     about,
     contactpage,
+    newspage,
     learningresources,
     assessementpage,
     teachersupportpage,
+    backgroundpage,
     story,
-    projectdocument,
-    learningresource,
-
 
     //story elements
     youtube,
