@@ -14,6 +14,7 @@ import learningresources from './learningresources'
 import assessmentpage from './assessmentpage'
 import projectdocument from './projectdocument'
 import teachersupportpage from './teachersupportpage'
+import studentsupportpage from './studentsupportpage'
 import contactpage from './contactpage'
 import story from './story'
 import learningresource from './learningresourcesUK'
@@ -47,6 +48,7 @@ export default createSchema({
     learningresources,
     assessmentpage,
     teachersupportpage,
+    studentsupportpage,
     backgroundpage,
     story,
 
