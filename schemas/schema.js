@@ -9,6 +9,7 @@ import about from './about'
 import country from './country'
 import homepage from './homepage'
 import newspage from './newspage'
+import newsstory from './newsstory'
 import backgroundpage from './backgroundpage'
 import learningresources from './learningresources'
 import assessmentpage from './assessmentpage'
@@ -45,6 +46,7 @@ export default createSchema({
     about,
     contactpage,
     newspage,
+    newsstory,
     learningresources,
     assessmentpage,
     teachersupportpage,
