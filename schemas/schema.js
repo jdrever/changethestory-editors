@@ -18,6 +18,7 @@ import teachersupportpage from './teachersupportpage'
 import studentsupportpage from './studentsupportpage'
 import contactpage from './contactpage'
 import story from './story'
+import storycomment from './storycomment'
 import learningresource from './learningresourcesUK'
 
 
@@ -53,6 +54,7 @@ export default createSchema({
     studentsupportpage,
     backgroundpage,
     story,
+    storycomment,
 
     //story elements
     youtube,
