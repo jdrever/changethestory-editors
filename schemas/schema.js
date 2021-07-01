@@ -20,7 +20,7 @@ import contactpage from './contactpage'
 import story from './story'
 import storycomment from './storycomment'
 import learningresource from './learningresourcesUK'
-
+import school from './school'
 
 // story elements
 import youtube from './youtube'
@@ -55,6 +55,7 @@ export default createSchema({
     backgroundpage,
     story,
     storycomment,
+    school,
 
     //story elements
     youtube,

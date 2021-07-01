@@ -29,9 +29,31 @@ export default {
             name: "description",
 
             // The type of this field
-            type: "localeText",
+            type: "text",
         }
         ,
+        {
+            // The display name for this field
+            title: "Who Created this Story?",
+
+            // The identifier for this field used in the api's
+            name: "who_created",
+
+            // The type of this field
+            type: "text",
+        }
+        ,        
+        {
+            // The display name for this field
+            title: "How Was This Story Created?",
+
+            // The identifier for this field used in the api's
+            name: "how_created",
+
+            // The type of this field
+            type: "text",
+        }
+        ,                
         {
             // The display name for this field
             title: "Main Image",
@@ -43,6 +65,20 @@ export default {
             type: "image",
         }
         ,
+        {
+            name: 'tags',
+            title: 'Tags',
+            type: 'tags',
+        }
+        ,
+        {
+            // The display name for this field
+            title: "Country",
+            // The identifier for this field used in the api's
+            name: "country",
+            type: 'reference',
+            to: [{type: 'country'}]
+        },
         {
             // The display name for this field
             title: "Content",
